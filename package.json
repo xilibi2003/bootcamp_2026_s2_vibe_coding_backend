@@ -4,9 +4,16 @@
   "type": "module",
   "scripts": {
     "market:actions": "node scripts/nft-market-actions.mjs",
-    "market:watch": "node scripts/watch-nft-market.mjs"
+    "market:watch": "node scripts/watch-nft-market.mjs",
+    "ett:index": "node scripts/index-transfers.mjs",
+    "ett:server": "node scripts/server.mjs"
   },
   "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "siwe": "^3.0.0",
     "viem": "^2.31.0"
   }
 }
