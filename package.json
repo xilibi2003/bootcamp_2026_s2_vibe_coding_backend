@@ -1,0 +1,12 @@
+{
+  "name": "nft-market-backend-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "market:actions": "node scripts/nft-market-actions.mjs",
+    "market:watch": "node scripts/watch-nft-market.mjs"
+  },
+  "dependencies": {
+    "viem": "^2.31.0"
+  }
+}
