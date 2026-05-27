@@ -6,7 +6,8 @@
     "market:actions": "node scripts/nft-market-actions.mjs",
     "market:watch": "node scripts/watch-nft-market.mjs",
     "ett:index": "node scripts/index-transfers.mjs",
-    "ett:server": "node scripts/server.mjs"
+    "ett:server": "node scripts/server.mjs",
+    "wallet:transfer": "node scripts/cli-wallet.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^12.10.0",
